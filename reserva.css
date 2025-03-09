@@ -1,0 +1,153 @@
+:root {
+  --color-element: #2d5dea;
+  --color-element-hover: #2348b8;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+#reservationForm {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px;
+  width: 50%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.header {
+  display: flex;
+  background-image: url("./bgheader.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  color: white;
+}
+
+.header img {
+  opacity: 0.5;
+}
+
+form label {
+  font-weight: bold;
+}
+
+form input,
+form select {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#btmsubmit {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: var(--color-element);
+  color: white;
+  width: 50%;
+  align-self: center;
+}
+#btmsubmit:hover {
+  background-color: var(--color-element-hover);
+}
+
+#reservationTable {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#reservationTable th,
+#reservationTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+#reservationTable th {
+  background-color: #f2f2f2;
+}
+
+#reservationTable tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#reservationTable tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+#reservationTable tr:hover {
+  background-color: #ddd;
+}
+
+#reservationTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: var(--color-element);
+  color: white;
+}
+
+#reservationTable td {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #fff;
+  color: black;
+}
+
+#reservationTable tr:hover {
+  background-color: #ddd;
+}
+
+p span {
+  font-weight: bold;
+}
+
+input,
+option {
+  text-align: center;
+}
+
+.img_logo {
+  width: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+li {
+  list-style: none;
+}
+
+.navegacion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-element);
+  padding: 10px;
+}

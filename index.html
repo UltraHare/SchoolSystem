@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es-cl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <link
+      rel="icon"
+      href="https://insucodos.cl/wp-content/uploads/2022/05/cropped-INSUCODOS110x137-32x32.jpg"
+    />
+  </head>
+
+  <body>
+    <div class="login-form">
+      <h1>Iniciar Sesión</h1>
+      <form action="login_registrar.php" method="post">
+        <p>Nombre de usuario</p>
+        <input
+          type="text"
+          name="usuario"
+          placeholder="Ingresa tu usuario"
+          required
+        />
+        <p>Contraseña</p>
+        <input
+          type="password"
+          name="pass"
+          placeholder="Ingresa tu contraseña"
+          required
+        />
+        <input type="submit" value="Entrar" name="btmlogin" />
+      </form>
+      <a href="registrar.html" rel="registrar">Crear una cuenta</a>
+    </div>
+  </body>
+</html>
